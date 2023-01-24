@@ -1,0 +1,26 @@
+{
+  "name": "peer-server",
+  "version": "1.0.0",
+  "description": "websocket server to get data from esp32",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "server",
+    "websocket",
+    "esp32",
+    "on-off"
+  ],
+  "author": "harixh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "nodemon": "^2.0.20",
+    "scanf": "^1.1.2",
+    "socket.io": "^4.5.4",
+    "websocket": "^1.0.34"
+  }
+}
